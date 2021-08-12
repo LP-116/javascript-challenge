@@ -41,10 +41,17 @@ function runFilter() {
 
     tbody.html("");
 
-    tbody.append("tr").filteredData;
+    filteredData.forEach((dataEntry) => {
 
+        row = tbody.append("tr");
 
-}
+        Object.values(dataEntry).forEach((value) => {
+            row.append("td").text(value);
+        });
+    });
+};
+
+buildTable(tableData);
 
 
 
