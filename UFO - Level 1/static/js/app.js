@@ -35,23 +35,37 @@ function runFilter() {
     // console.log(inputValue);
     // console.log(tableData);
 
+    // if inputValue 
+
     var filteredData = tableData.filter(dataEntry => dataEntry.datetime === inputValue);
 
     console.log(filteredData);
 
+    if (!filteredData.length) {
+        console.log("No result")
+
+        tbody.html("");
+
+        tbody.text("No results for selected date");
+
+    }
+
+    else {
+    
     tbody.html("");
 
     filteredData.forEach((dataEntry) => {
 
-        row = tbody.append("tr");
+        // row = tbody.append("tr");
 
         Object.values(dataEntry).forEach((value) => {
             row.append("td").text(value);
         });
     });
 };
+};
 
-buildTable(tableData);
+
 
 
 
