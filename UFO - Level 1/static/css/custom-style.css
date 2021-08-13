@@ -1,5 +1,5 @@
 .first-heading {font-family: Ubuntu, sans-serif;
-    text-align: left;
+    text-align: start;
     display: block;}
 
 .header-img {
@@ -11,8 +11,7 @@
     background-image: url("../images/space5.jpg");
     background-attachment: fixed;
     background-position: bottom center;
-    background-size:contain;
-    
+    background-size:contain;    
   }
 
 .wrapper {
@@ -22,7 +21,9 @@
     overflow: auto;
   }
   
-/* #table-area {background-color: black;} */
+
+
+#table-area {font-size: 14px;}
 
 /* Pusling animation bulk attributes came from the below: */
 /* https://www.kevinleary.net/pulsating-css3-animations/ */
@@ -34,7 +35,7 @@
   color: cyan;
   float: right;
   display: block;
-  font-size: 50px;
+  font-size: 45px;
   font-family: Ubuntu, sans-serif;
   }
 
