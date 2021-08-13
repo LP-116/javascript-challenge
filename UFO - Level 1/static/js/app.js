@@ -9,7 +9,7 @@ function buildTable(data) {
 
     data.forEach((dataRow) => {
     
-        const row = tbody.append("tr");
+        var row = tbody.append("tr");
 
         Object.values(dataRow).forEach((value) => {
             row.append("td").text(value);
@@ -56,7 +56,7 @@ function runFilter() {
 
     filteredData.forEach((dataEntry) => {
 
-        // row = tbody.append("tr");
+        var row = tbody.append("tr");
 
         Object.values(dataEntry).forEach((value) => {
             row.append("td").text(value);
