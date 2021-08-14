@@ -56,9 +56,7 @@ function runFilter() {
 
         tbody.html("");
 
-        tbody.text("No results for selected date");
-
-    }
+        tbody.text("No results for selected date");}
 
     else {
     
