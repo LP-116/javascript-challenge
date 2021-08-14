@@ -24,7 +24,15 @@
 
 #panel-heading {color: white;}
   
-#datetime {color:white}
+#datetime {color:white;}
+
+#city {color:white;}
+
+#state {color:white;}
+
+#country {color:white;}
+
+#shape {color:white;}
 
 #table-area {font-size: 13px;}
 
