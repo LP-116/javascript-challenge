@@ -47,9 +47,7 @@ function runFilter() {
                                                     (dataEntry.state === stateinputValue || stateinputValue === "") &&
                                                     (dataEntry.country === countryinputValue || countryinputValue === "") &&
                                                     (dataEntry.shape === shapeinputValue || shapeinputValue === "")));
-                                                    
-
-
+                                                 
 
     console.log(filteredData);
 
