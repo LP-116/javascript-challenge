@@ -52,11 +52,12 @@ function runFilter() {
     console.log(filteredData);
 
     if (!filteredData.length) {
+
         console.log("No result")
 
         tbody.html("");
 
-        tbody.text("No results for selected date");}
+        tbody.text("No results for selected date. Please ensure date format is correct.");}
 
     else {
     
