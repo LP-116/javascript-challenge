@@ -65,7 +65,25 @@ function runFilter() {
 };
 };
 
+var filterButton2 =  d3.select("#filter-btn2");
 
+filterButton2.on("click", resetFilter);
+
+function resetFilter() {
+
+    tbody.html("");
+
+    // var inputElement = d3.select("#datetime");
+
+    // var inputValue = inputElement.property("value");
+
+    // inputValu;
+
+    document.querySelector("#datetime").value = '';
+
+    buildTable(tableData);
+
+};
 
 
 

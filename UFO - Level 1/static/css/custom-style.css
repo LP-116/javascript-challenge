@@ -1,5 +1,6 @@
 .first-heading {font-family: Ubuntu, sans-serif;
-    text-align: start;
+    text-align: left;
+    font-size: 60px;
     display: block;}
 
 .header-img {
@@ -20,10 +21,12 @@
     padding-bottom: 130px;
     overflow: auto;
   }
+
+#panel-heading {color: white;}
   
+#datetime {color:white}
 
-
-#table-area {font-size: 14px;}
+#table-area {font-size: 13px;}
 
 /* Pusling animation bulk attributes came from the below: */
 /* https://www.kevinleary.net/pulsating-css3-animations/ */
@@ -32,10 +35,10 @@
   -webkit-animation: pulsate 2s ease-out;
   -webkit-animation-iteration-count: infinite; 
   opacity: 0.3;
-  color: cyan;
+  color: limegreen;
   float: right;
   display: block;
-  font-size: 45px;
+  font-size: 40px;
   font-family: Ubuntu, sans-serif;
   }
 
