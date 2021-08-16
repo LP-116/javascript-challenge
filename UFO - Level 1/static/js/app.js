@@ -1,8 +1,6 @@
 // from data.js
 var tableData = data;
 
-// YOUR CODE HERE!
-
 var tbody = d3.select("tbody");
 
 function buildTable(data) {
@@ -32,12 +30,7 @@ function runFilter() {
 
     var inputValue = inputElement.property("value");
 
-    // console.log(inputValue);
-    // console.log(tableData);
-
-    // if inputValue 
-
-    var filteredData = tableData.filter(dataEntry => dataEntry.datetime === inputValue);
+    var filteredData = tableData.filter(dataEntry => dataEntry.datetime === inputValue || inputValue === "");
 
     console.log(filteredData);
 
@@ -46,7 +39,7 @@ function runFilter() {
 
         tbody.html("");
 
-        tbody.text("No results for selected date");
+        tbody.text("No results for selected date. Please check date format is correct.");
 
     }
 
