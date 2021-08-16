@@ -12,7 +12,7 @@
     background-image: url("../images/space5.jpg");
     background-attachment: fixed;
     background-position: bottom center;
-    background-size:contain;    
+    background-size:contain;
   }
 
 .wrapper {
@@ -35,7 +35,6 @@
 #shape {color:white;}
 
 #table-area {font-size: 13px;}
-
 
 
 /* Pusling animation bulk attributes came from the below: */
@@ -144,7 +143,7 @@ html {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   #table-area thead {
     display: none;
   }
@@ -185,3 +184,23 @@ html {
     content: attr(data-th);
   }
 
+  .header-img {
+    height: 200px;
+    background-position:unset;
+  }
+
+  .first-heading {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .pulsate {
+    font-size: 25px;
+  }
+
+  #alien {
+    width:25px;
+    height:25px;
+  }
+}
