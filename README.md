@@ -80,10 +80,12 @@ https://codepen.io/saransh/pen/BKJun
 https://www.kevinleary.net/pulsating-css3-animations/
 
 For the UFO background image:
+
 https://www.planeandpilotmag.com/news/pilot-talk/2020/06/16/alien-spacecraft-roswell-new-mexico/
 
 
 For the alien icon in the heading word:
+
 https://www.freepik.com     title="Freepik" 
 https://www.flaticon.com/   title="Flaticon"
 
