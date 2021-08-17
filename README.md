@@ -49,7 +49,8 @@ Also for Part 1 and Part 2 added in a reset data button to clear the filters and
 Filters work successfully upon clicking the filter button and data resets when clicking the reset button.
 
 Example:
-<img src="https://user-images.githubusercontent.com/82348616/129659041-17a5844e-73b9-435b-a681-cdf0902135d3.PNG" width="500">
+
+<img src="https://user-images.githubusercontent.com/82348616/129659041-17a5844e-73b9-435b-a681-cdf0902135d3.PNG" width="700">
 
 
 ---
