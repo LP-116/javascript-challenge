@@ -73,18 +73,20 @@ In the webpage the below resources were used:
 
 For the floating stars background:
 
-* Parallax Pixel Stars *
+* Parallax Pixel Stars
+
 https://codepen.io/saransh/pen/BKJun 
 
-* Pusling animation bulk attributes came from the below: *
+* Pusling animation bulk attributes came from the below: 
+
 https://www.kevinleary.net/pulsating-css3-animations/
 
-For the UFO background image:
+* For the UFO background image:
 
 https://www.planeandpilotmag.com/news/pilot-talk/2020/06/16/alien-spacecraft-roswell-new-mexico/
 
 
-For the alien icon in the heading word:
+* For the alien icon in the heading word:
 
 https://www.freepik.com     title="Freepik" 
 https://www.flaticon.com/   title="Flaticon"
