@@ -23,10 +23,10 @@ buildTable(tableData);
 
 
 // Now using d3 to select the filter button and on the click of the filter button, the run filter function is executed.
+
 var filterButton = d3.select("#filter-btn");
 
 filterButton.on("click", runFilter)
-
 
 // The runfilter function firstly prevents the page reloading.
 // Next the datetime element is selected and the input value within the datetime element is determined.
