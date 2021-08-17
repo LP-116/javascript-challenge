@@ -15,7 +15,7 @@ Part 1 involved creating a basic HTML web page and then using the dataset provid
 
 A date form is used in the HTML document and the Javascript code is required to listen for events and search through the date/time columns to find rows that match the user input.
 
-#### Part 2: Automatic Table and Date Search
+#### Part 2: Multiple Search Categories
 Part 2 adds multiple input tages to the equation so that the user can set multuple filters and search for UFO sightings.
 The user can filter the dataset based on date/time, city, state, country, shape or a combination of any/all inputs.
 
