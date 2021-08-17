@@ -57,7 +57,7 @@ function runFilter() {
 
         tbody.html("");
 
-        tbody.text(" No results for selected date. Please ensure date format is correct.");}
+        tbody.text("No results for selected date. Please ensure date format is correct.");}
 
     else {
     

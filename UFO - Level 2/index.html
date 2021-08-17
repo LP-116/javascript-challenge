@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/custom-style.css">
+  <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="static/css/bootstrap.min.css">
 </head>
 
@@ -15,7 +15,7 @@
     <div class="wrapper">
       <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
           <div class="container">
-            <a class="navbar-brand" href="LP index.html"><img src="static/images/ufo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> UFO Sightings &nbsp</a>
+            <a class="navbar-brand" href="index.html"><img src="static/images/ufo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> UFO Sightings &nbsp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,7 +25,7 @@
         <div class="container-fluid header-img text-center">
             <br><br><br>
             <h1> <span class="first-heading"> &nbsp &nbsp &nbsp UFO sightings </span></h1>
-            <h2> <span class="pulsate">The truth is out there...<img src="static/images/alien.PNG" alt="" width="40" height="40">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span></h2>
+            <h2> <span class="pulsate">The truth is out there...<img id="alien" src="static/images/alien.PNG" alt="" width="40" height="40">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span></h2>
         </div>
 
             <div id="stars"></div>
@@ -44,8 +44,32 @@
                                 <ul class="list-group" id="filters">
                                 <li class="filter list-group-item">
                                     <label for="date">Enter a Date</label>
-                                    <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                                    <input class="form-control" id="datetime" type="text" placeholder="1/1/2011">
                                 </li>
+                                </ul>
+                                <ul class="list-group" id="filters">
+                                <li class="filter list-group-item">
+                                    <label for="date">Enter a City</label>
+                                    <input class="form-control" id="city" type="text" placeholder="benton">
+                                </li>
+                                </ul>
+                                <ul class="list-group" id="filters">
+                                    <li class="filter list-group-item">
+                                        <label for="date">Enter a State</label>
+                                        <input class="form-control" id="state" type="text" placeholder="ar">
+                                    </li>
+                                    </ul>
+                                <ul class="list-group" id="filters">
+                                    <li class="filter list-group-item">
+                                        <label for="date">Enter a Country</label>
+                                        <input class="form-control" id="country" type="text" placeholder="us">
+                                    </li>
+                                </ul>
+                                <ul class="list-group" id="filters">
+                                    <li class="filter list-group-item">
+                                        <label for="date">Enter a Shape</label>
+                                        <input class="form-control" id="shape" type="text" placeholder="circle">
+                                    </li>
                                 </ul>
                             </div>
                             <p></p>
