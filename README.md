@@ -1,5 +1,5 @@
 # Javascript Challenge
-## JavaScript Homework - JavaScript and DOM Manipulation
+## JavaScript and DOM Manipulation
 ## To view the bonus section webpage click [here](https://lp-116.github.io/javascript-challenge/index.html)
 
 ---
@@ -22,7 +22,7 @@ The user can filter the dataset based on date/time, city, state, country, shape 
 ---
 ## Method
 
-For this assessment I designed a new HTML webpage by using the homework example as a starting point and then changing the bootstrap theme/images/text/colors and adding a background image.
+For this assessment I designed a new HTML webpage by using the challenge example as a starting point and then changing the bootstrap theme/images/text/colors and adding a background image.
 
 Firstly, the code creates a table showing all available data. This is completed by creating a buildTable function and then using the function on the dataset.
 The function builds up empty rows for each data entry and then appends the dataset values into the table.
@@ -57,8 +57,8 @@ Example:
 ## Files
 
 There are 2 folders in this repository. 
-* UFO - Level 1 contains the homework assignment for part 1 (only one filter).
-* UFO - Level 2 contains the homwork assignment for part 2 (multiple filters).
+* UFO - Level 1 contains the part 1 challenge (only one filter).
+* UFO - Level 2 contains the part 2 challenge (multiple filters).
 
 Inside each folder contains the index.html page and a static folder contain the js files, CSS files and images.
 The code is located in the app.js file in the js folder.
